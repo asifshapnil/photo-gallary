@@ -1,0 +1,353 @@
+body {
+  font-family: 'Open Sans', serif;
+  padding-top: 54px;
+  color: #868e96;
+}
+.btn{
+  font-weight: bold;
+}
+.element {
+  display: inline-flex;
+  align-items: center;
+}
+i.fa-file {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 30px;
+
+}
+i.fa-image {
+  margin: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  margin-right: 20px;
+}
+i:hover {
+  opacity: 0.6;
+  /* background-color: teal; */
+
+}
+input {
+  display: none;
+}
+
+.img-profile{
+  height: 200px !important;
+  width: 300px !important;
+
+}
+
+#read{
+  color: teal;
+  text-decoration: none;
+}
+#unread{
+  color: #824027;
+  text-decoration: none;
+
+}
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* color: #343a40; */
+  /* color: teal; */
+  color: #566;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem;
+}
+
+.list-social-icons a {
+  color: #495057;
+}
+
+.list-social-icons a:hover {
+  color:   #CCCCCC;
+}
+
+.list-social-icons a .fa-lg {
+  font-size: 1.75rem;
+}
+
+.list-icons {
+  font-size: 3rem;
+}
+
+.list-icons .list-inline-item i:hover {
+  color: teal;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #999 !important;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+
+
+}
+section .my-auto{
+  padding: 50px;
+
+  /* margin-left: 350px; */
+
+}
+section .background{
+  max-height: 600px !important;
+  max-width: 100%;
+  margin-top: -45px;
+  margin-left: -50px;
+  background-image: url('http://www.likecovers.com/covers/original/polaroid-collage-stairs-bike-and-more.jpg?i');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .homeback{
+  max-height: 600px !important;
+  max-width: 700px;
+  margin-top: -45px;
+  margin-left: -50px;
+  /* background-image: url('https://siteimages.agora-gallery.com/galleryPhotos/2016/downstairs1.jpg'); */
+  /* opacity: 0.5; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section .homeback::before{
+  background-image: url('https://siteimages.agora-gallery.com/galleryPhotos/2016/downstairs1.jpg'); */
+  opacity: 0.5;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  /* background-color: #BD5D38 !important; */
+  /* background-color: teal !important; */
+  /* background-color: #CCCCCC !important; */
+  background-color: #3A4349 !important;
+
+}
+
+.text-primary {
+  /* color: #BD5D38 !important; */
+  color:  #999 !important;
+}
+
+a {
+  color: teal;
+}
+
+a:hover, a:focus, a:active {
+  /* color: #824027; */
+  color: teal;
+}
+
+
+.invite{
+  margin-top: 50px;
+
+}
+
+.carousel-item img{
+  width: 100px;
+  height: 100px;
+
+}
+.ci{
+  /* padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px; */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* margin-bottom: -35px; */
+  margin-top: 15px;
+}
+.carousel-inner{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.invite{
+  /* background-color: teal; */
+  background-color:  #CCCCCC;
+  color: #566;
+  box-shadow: 2px 2px 2px 2px #aaaaaa;
+}
+.invite:hover{
+  color: #566;
+  opacity:0.7;
+}
+
+#seemore{
+  width: 300px;
+  margin-left: 110px;
+}
+
+#invitebtn {
+  width: 300px;
+  width: 250px;
+}
+
+.invitepic{
+  margin-top: 30px;
+
+}
+#myImg{
+  margin: 20px;
+  width: 240px;
+  height: 140px;
+}
+#myImg:hover{
+  opacity: 0.6;
+}
+
+#homeimg{
+  width: 240px;
+  height: 140px;
+  margin-left: -15px;
+
+}
+#card{
+  margin: 5px;
+}
+
+.landing{
+  color: #ffffff !important;
+}
+
+.welcome{
+
+}
+
+
+
+
+.l{
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.lc{
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.lc img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .lc{
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .lc {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
